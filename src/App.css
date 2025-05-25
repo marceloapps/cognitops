@@ -1,0 +1,31 @@
+/* Garante que o layout principal ocupe toda a altura */
+#root, .ant-layout {
+  min-height: 100vh;
+}
+
+/* Garante que o Sider tenha um z-index (só por precaução) */
+.ant-layout-sider {
+  z-index: 10;
+}
+
+/* Garante que o layout interno ocupe o espaço */
+.site-layout .site-layout-background {
+  background: #141414; /* Cor escura padrão */
+  padding: 24px;
+  min-height: 280px; /* Altura mínima inicial */
+}
+
+.ant-layout-header {
+   padding: 0 24px !important; /* Ajuste padding header */
+}
+
+/* Correção para texto não quebrar em letras */
+h1, h2, h3, h4, p, span, div, th, td {
+    word-break: normal !important; /* Evita quebras estranhas */
+    white-space: normal !important; /* Permite quebra de linha normal */
+}
+
+.ant-table {
+    width: 100% !important; /* Força a tabela a ocupar 100% */
+    overflow-x: auto; /* Adiciona scroll se necessário */
+}
