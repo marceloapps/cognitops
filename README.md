@@ -140,5 +140,3 @@ Para desenvolvimento e testes rápidos, você pode rodar a aplicação localment
 *   **Docker**: Plataforma de containerização.
 
 ---
-
-*Sinta-se à vontade para adicionar mais seções ou detalhes específicos do seu projeto!*
