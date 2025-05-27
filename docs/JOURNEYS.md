@@ -42,7 +42,7 @@ graph TD
     A[Usuário logado no MainLayout] --> B[Clica no item Chat AIOps no Menu Lateral];
     B --> C[Sistema exibe a ChatPage];
     C --> D[Usuário vê a saudação inicial do Bot];
-    D --> E[Usuário digita uma pergunta<br>(ex: saúde api-pagamentos ou listar serviços)];
+    D --> E[Usuário digita uma pergunta<br>ex: saúde api-pagamentos ou listar serviços];
     E --> F[Clica no botão Enviar ou pressiona Enter];
     F --> G[Mensagem do usuário é adicionada à conversa];
     G --> H[Sistema Bot mockado processa a pergunta];
@@ -59,7 +59,7 @@ graph TD
 graph TD
     A[Usuário logado no MainLayout] --> B[Localiza seu nome/avatar e o botão Sair no Header];
     B --> C[Clica no botão Sair];
-    C --> D[Sistema processa o logoff<br>(estado isLoggedIn é definido como false)];
+    C --> D[Sistema processa o logoff<br>estado isLoggedIn é definido como false];
     D --> E[Sistema exibe a LoginPage];
     E --> F(Usuário é desconectado da plataforma);
 ```
